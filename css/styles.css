@@ -1,3 +1,13 @@
+:root {
+
+--little-nav:#2E2F42;
+--button-color-head:#FFFFFF;
+--color-text:#434455;
+--button-color-next:#4D5AE5;
+--body-background:#E5E5E5
+
+}
+
 body{
     
     font-family: 'Raleway', sans-serif;
@@ -13,23 +23,81 @@ header{
 
 
 .logo{
+    text-transform: uppercase;
     font-size: 18px;
-    line-height: 24px;
+    line-height: 1.35;
+    font-weight: 800;
 }
 
-p{
+.link-contact{
+   color: var(--little-nav);
     font-size: 16px;
     line-height: 1.5;
-    
+    font-weight: 500;
 }
 
-a{
-    font-size: 16px;
-    line-height: 1.5;
+.contact {
+font-size: 16px;
+color: var(--color-text);
 }
 
-button{
-    font-size: 16px;
-    line-height: 1.19;
+.contact:hover
+ {
+    color: red;
+}
+
+.first-section{
+    background-color: #2E2F42 ;
+}
+
+.main-title{
+    color: var(--button-color-head);
+    font-size: 56px;
+    line-height: 1.08;
+}
+
+
+
+.first-btn{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        color: var(--button-color-head);
+        background-color: #4D5AE5;
+        cursor: pointer;
+}
+
+button:hover{
+    color: red ;
     cursor:pointer;
+}
+
+.title-third{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    color: var(--little-nav) 
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.5;
+
+}
+
+.title-second{
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 40px;
+        color: var(--little-nav);
+}
+
+.btn_port{
+    background: #404BBF; 
+    color: var(--button-color-head);
+    font-weight: 500;
+        font-size: 16px;
+        line-height: 1.5;
+        cursor: pointer;
+
 }
